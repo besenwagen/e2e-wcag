@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  cypress:
+    environment:
+      - CYPRESS_BASE_URL
+    network_mode: host

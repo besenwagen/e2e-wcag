@@ -1,0 +1,7 @@
+version: "3.6"
+services:
+  node:
+    environment:
+      - PROJECT=e2e-vendor
+    volumes:
+      - ~/Workspace/Projects/e2e-wcag-template/vendor:/home/node/workspace/public
