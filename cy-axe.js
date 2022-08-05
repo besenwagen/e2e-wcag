@@ -2,14 +2,7 @@ export { wcag };
 
 import { AXE_CORE_PATH } from './library/constants.js';
 
-/* global
-	 Cypress,
-	 cy,
-	 describe,
-	 beforeEach,
-	 it,
-	 expect,
-*/
+/* global Cypress, cy, describe, beforeEach, it, expect */
 
 const { from, isArray } = Array;
 const { assign, create, entries, fromEntries } = Object;
