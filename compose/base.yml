@@ -6,7 +6,7 @@ services:
     # See https://github.com/cypress-io/cypress/discussions/21014
     #
     # For 8.5-9.5 see [closed] https://github.com/cypress-io/cypress/issues/19299
-    image: 'cypress/included:10.3.1'
+    image: 'cypress/included:12.17.3'
     environment:
       - BROWSERSLIST_IGNORE_OLD_DATA=true
     working_dir: /e2e
