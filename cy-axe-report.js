@@ -396,7 +396,7 @@ function errors_first(pages) {
  * @returns {string}
  */
 const get_heading = base_url =>
-	`<strong>${axe_report.conformance}</strong> report for <code>${base_url}</code>`;
+	`<strong>${axe_report.conformance}</strong> report for <code><a href="${base_url}">${base_url}</a></code>`;
 
 /**
  * Violation reducer
