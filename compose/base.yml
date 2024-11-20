@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   cypress:
     # Use 8.4.1 to avoid the error log at the STDOUT start
